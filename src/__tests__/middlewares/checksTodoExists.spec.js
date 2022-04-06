@@ -183,4 +183,4 @@ describe('checksTodoExists', () => {
 
     expect(mockNext).not.toBeCalled();
   });
-})
+});
