@@ -1,5 +1,6 @@
-const request = require('supertest');
+import {request}  from 'supertest';
 import { validate, v4 } from 'uuid';
+
 import { app } from '../';
 
 describe('Todos', () => {
